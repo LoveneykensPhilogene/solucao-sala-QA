@@ -1,9 +1,5 @@
 <html lang="br-pt">
-<head>
-<title>
-Solucao-sala-Q&A
-</title>
-</head>
 <body>
+<h1>Solucao-sala-Q&A</h1>
 </body>
 </html>
