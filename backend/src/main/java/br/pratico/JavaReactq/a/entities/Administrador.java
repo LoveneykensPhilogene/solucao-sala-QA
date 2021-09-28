@@ -2,26 +2,26 @@ package br.pratico.JavaReactq.a.entities;
 
 import java.io.Serializable;
 
-public class Administrador implements Serializable{
+public class Administrador implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	private Long id;
 	private String nome;
 	private String sobreNome;
 	private String email;
 	private String telefone;
-	
+
 	public Administrador() {
-		
+
 	}
-	
-	public Administrador (Long id, String nome,String sobreNome,String email, String telefone) {
-		this.id=id;
-		this.nome=nome;
-		this.sobreNome=sobreNome;
-		this.email=email;
-		this.telefone=telefone;
+
+	public Administrador(Long id, String nome, String sobreNome, String email, String telefone) {
+		this.id = id;
+		this.nome = nome;
+		this.sobreNome = sobreNome;
+		this.email = email;
+		this.telefone = telefone;
 	}
 
 	public Long getId() {
